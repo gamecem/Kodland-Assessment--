@@ -17,3 +17,4 @@ Kodda bir şey eksikse, eklenmesi gerekir.
 # Hata Listesi
 1. Oyunu başlattığımızda kaybettin ekranı çıkıyor.
 2. Player'ın sol tıka bastıgında ateş edememesi -> PlayerController Componentındaki bullet referansının verilmemesi.
+3. Player'ın haraket edememesi

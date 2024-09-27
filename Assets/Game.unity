@@ -249,7 +249,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 551c8ee73c30e35469b8715906c59212, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: cabf1857eec6dd243b25ec67651631ca, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 400000, guid: cabf1857eec6dd243b25ec67651631ca, type: 3}
@@ -286,9 +287,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: cabf1857eec6dd243b25ec67651631ca, type: 3}
       insertIndex: -1
       addedObject: {fileID: 237374372}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: cabf1857eec6dd243b25ec67651631ca, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 237374375}
   m_SourcePrefab: {fileID: 100100000, guid: cabf1857eec6dd243b25ec67651631ca, type: 3}
 --- !u!1 &237374369 stripped
 GameObject:
@@ -334,7 +332,7 @@ MonoBehaviour:
   Victory: {fileID: 1367528455}
   controller: {fileID: 237374373}
   moveSpeed: 5
-  health: 0
+  health: 50
 --- !u!143 &237374373
 CharacterController:
   m_ObjectHideFlags: 0
@@ -361,33 +359,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.51, z: 0}
---- !u!54 &237374375
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 237374369}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!4 &304672924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400106, guid: cabf1857eec6dd243b25ec67651631ca, type: 3}

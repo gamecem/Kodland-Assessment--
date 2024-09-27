@@ -18,8 +18,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        Destroy(this);
-        ChangeHealth(0);
+        //Destroy(this);
+        //ChangeHealth(0);
     }
 
     public void ChangeHealth(int hp)

@@ -13,3 +13,6 @@ Kodda bir şey eksikse, eklenmesi gerekir.
 - Tüm hataları ayrı bir dosyada bulun ve yazın
 - Onları düzelt
 - Eksik kodu ekle
+
+# Hata Listesi
+1- Oyunu başlattığımızda kaybettin ekranı çıkıyor.

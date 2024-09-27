@@ -1,7 +1,6 @@
 # Kodland Assessment
-
-## Proje Açıklaması
-Bu proje, bir karakteri hareket ettirip kamera yönetimi yaparak, düşmanlarla etkileşime giren bir oyun oluşturmayı hedeflemektedir. Oyuncunun sol fare tıklaması ile mermi ateşleyebilmesi ve düşmanları yok edebilmesi gerekmektedir.
+Öğrenci size hatalı bir proje gönderdi ve bunları düzeltmeniz gerekiyor.
+Kodda bir şey eksikse, eklenmesi gerekir.
 
 ## Gereksinimler
 - Karakteri hareket ettirin

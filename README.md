@@ -21,3 +21,9 @@ Kodda bir şey eksikse, eklenmesi gerekir.
 4. Player'ın Kamerayı kontrol edememesi.
 5. Bullet'lerin Enemy ile interact olmaması
 6. ChangeHealth fonksiyonun int alması ama health değişkenin float verilmesi
+
+## Çözümler
+### 1. Hatanın Çözümü
+Startta ChangeHealth(0) girilmesi sonucu ChangeHealth fonksiyonun Lose fonksiyonunu çağırması önlemek. [Hata 1]([https://github.com](https://github.com/gamecem/Kodland-Assessment--/commit/561b9b60d4195a924b2731c6ca66e36095d867f4))
+
+

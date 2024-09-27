@@ -20,3 +20,4 @@ Kodda bir şey eksikse, eklenmesi gerekir.
 3. Player'ın haraket edememesi.
 4. Player'ın Kamerayı kontrol edememesi.
 5. Bullet'lerin Enemy ile interact olmaması
+6. ChangeHealth fonksiyonun int alması ama health değişkenin float verilmesi

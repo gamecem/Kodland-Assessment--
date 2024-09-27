@@ -15,4 +15,4 @@ Kodda bir şey eksikse, eklenmesi gerekir.
 - Eksik kodu ekle
 
 # Hata Listesi
-1- Oyunu başlattığımızda kaybettin ekranı çıkıyor.
+1. Oyunu başlattığımızda kaybettin ekranı çıkıyor.

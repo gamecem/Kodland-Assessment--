@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e162a53f5bd8ce9478ed8c22c0ae918a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSense: 0
+  mouseSense: 10
   player: {fileID: 237374370}
   playerArms: {fileID: 843225430}
 --- !u!114 &237374372

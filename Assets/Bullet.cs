@@ -1,4 +1,3 @@
-using System.Security.Cryptography;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -15,14 +14,14 @@ public class Bullet : MonoBehaviour
     {
         transform.position += direction * speed * Time.deltaTime;
         speed += 1f;
+    }
 
-        Collider[] targets = Physics.OverlapSphere(transform.position, 1);
-        foreach (var item in targets)
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            if (item.tag == "Enemy")
-            {
-
-            }
+            Destroy(other.gameObject);
         }
+        Destroy(gameObject);
     }
 }

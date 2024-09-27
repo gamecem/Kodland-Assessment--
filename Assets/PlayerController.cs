@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject GameOver;
     [SerializeField] private GameObject Victory;
 
+    [SerializeField] private CharacterController controller;
+    [SerializeField] private float moveSpeed;
     public float health = 0;
 
     void Start()
@@ -89,5 +91,12 @@ public class PlayerController : MonoBehaviour
                 Lost();
             }
         }
+        
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        Vector3 move = new Vector3(horizontal, 0, vertical);
+        move = transform.TransformDirection(move);
+        controller.Move(move.normalized * moveSpeed * Time.deltaTime);
+
     }
 }
